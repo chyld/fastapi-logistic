@@ -1,6 +1,7 @@
+import pickle
+
 from sklearn.datasets import load_iris
 from sklearn.ensemble import RandomForestClassifier
-import pickle
 
 d = load_iris()
 X = d.data
